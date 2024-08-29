@@ -1,0 +1,1 @@
+draw_sprite_custom_origin(sprite_index, image_index, x, y, 8, 16, s_scalex, s_scaley, 0, c_white, 1);
