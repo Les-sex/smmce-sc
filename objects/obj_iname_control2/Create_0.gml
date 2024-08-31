@@ -14,3 +14,4 @@ instance_create((x + 14), (y + 119), obj_lp)
 instance_create((x + 122), (y + 119), obj_bl)
 instance_create((x + 138), (y + 6), obj_iname_close)
 
+

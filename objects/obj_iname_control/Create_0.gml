@@ -13,3 +13,6 @@ instance_create((x + 14), (y + 94), obj_iname)
 instance_create((x + 122), (y + 94), obj_bl2)
 instance_create((x + 138), (y + 6), obj_iname_close)
 
+// Si hay contraseña guardada, entrar al online
+if file_exists(working_directory + "Online.dat")
+event_perform_object(obj_bl, ev_global_left_press, 1)
